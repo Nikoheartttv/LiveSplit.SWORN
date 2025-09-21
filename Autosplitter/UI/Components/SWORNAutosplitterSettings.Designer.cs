@@ -122,7 +122,7 @@
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 50F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
             this.tableLayoutPanel.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel.Size = new System.Drawing.Size(470, 550);
+            this.tableLayoutPanel.Size = new System.Drawing.Size(470, 500);
             this.tableLayoutPanel.TabIndex = 1;
             // 
             // pnlOptions
@@ -175,7 +175,7 @@
             this.pnlButtons.Controls.Add(this.btnUncheckAll);
             this.pnlButtons.Controls.Add(this.btnResetToDefault);
             this.pnlButtons.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlButtons.Location = new System.Drawing.Point(73, 503);
+            this.pnlButtons.Location = new System.Drawing.Point(73, 453);
             this.pnlButtons.Name = "pnlButtons";
             this.pnlButtons.Padding = new System.Windows.Forms.Padding(0, 10, 10, 10);
             this.pnlButtons.Size = new System.Drawing.Size(394, 44);
@@ -224,7 +224,7 @@
             // 
             this.tvwSettings.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.tvwSettings.CheckBoxes = true;
-            this.tvwSettings.Location = new System.Drawing.Point(73, 209);
+            this.tvwSettings.Location = new System.Drawing.Point(73, 207);
             this.tvwSettings.Name = "tvwSettings";
             treeNode1.Name = "Split_DidWin";
             treeNode1.Text = "Split on Run Completion";
@@ -278,7 +278,7 @@
             treeNode22,
             treeNode23,
             treeNode24});
-            this.tvwSettings.Size = new System.Drawing.Size(394, 288);
+            this.tvwSettings.Size = new System.Drawing.Size(394, 240);
             this.tvwSettings.TabIndex = 3;
             // 
             // lblAdvanced
@@ -311,7 +311,7 @@
             this.AutoSize = true;
             this.Controls.Add(this.tableLayoutPanel);
             this.Name = "SWORNAutosplitterSettings";
-            this.Size = new System.Drawing.Size(470, 550);
+            this.Size = new System.Drawing.Size(470, 500);
             this.tableLayoutPanel.ResumeLayout(false);
             this.tableLayoutPanel.PerformLayout();
             this.pnlOptions.ResumeLayout(false);

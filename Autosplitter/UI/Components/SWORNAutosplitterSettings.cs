@@ -145,6 +145,7 @@ namespace Livesplit.SWORN.UI.Components
         private void SetSetting(XmlNode setting, CheckBox control)
         {
             control.Checked = false;
+            if (setting == null) return;
             if (!bool.TryParse(setting.Attributes["Value"].Value, out var value)) return;
             control.Checked = value;
         }
@@ -160,6 +161,7 @@ namespace Livesplit.SWORN.UI.Components
         private void SetSetting(XmlNode setting, TreeNode control)
         {
             control.Checked = false;
+            if (setting == null) return;
             if (!bool.TryParse(setting.Attributes["Value"].Value, out var value)) return;
             control.Checked = value;
         }
