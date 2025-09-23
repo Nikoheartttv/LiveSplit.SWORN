@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Layout version="1.6.1">
   <Mode>Vertical</Mode>
-  <X>1243</X>
-  <Y>236</Y>
+  <X>100</X>
+  <Y>100</Y>
   <VerticalWidth>286</VerticalWidth>
   <VerticalHeight>411</VerticalHeight>
   <HorizontalWidth>-1</HorizontalWidth>
@@ -125,7 +125,7 @@
         <Version>1.5</Version>
         <TimerHeight>69</TimerHeight>
         <TimerWidth>225</TimerWidth>
-        <TimerFormat>1.23</TimerFormat>
+        <TimerFormat>1.234</TimerFormat>
         <OverrideSplitColors>False</OverrideSplitColors>
         <ShowGradient>True</ShowGradient>
         <TimerColor>FFAAAAAA</TimerColor>
@@ -143,7 +143,7 @@
         <Version>1.5</Version>
         <TimerHeight>50</TimerHeight>
         <TimerWidth>225</TimerWidth>
-        <TimerFormat>1.23</TimerFormat>
+        <TimerFormat>1.234</TimerFormat>
         <OverrideSplitColors>False</OverrideSplitColors>
         <ShowGradient>True</ShowGradient>
         <TimerColor>FFAAAAAA</TimerColor>

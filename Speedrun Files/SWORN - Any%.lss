@@ -109,5 +109,35 @@
       <SegmentHistory />
     </Segment>
   </Segments>
-  <AutoSplitterSettings />
+  <AutoSplitterSettings>
+    <Start Value="True" />
+    <Split Value="True" />
+    <Reset Value="True" />
+    <Settings>
+      <Splits Value="True" />
+      <Split_DidWin Value="True" />
+      <Split_BossHP Value="True" />
+      <Split_BossHP_Questing Value="True" />
+      <Split_BossHP_Treant Value="True" />
+      <Split_BossHP_SirGawain Value="True" />
+      <Split_BossHP_Blight Value="True" />
+      <Split_BossHP_MaulerRat Value="True" />
+      <Split_BossHP_SirPercival Value="True" />
+      <Split_BossHP_AbyssalWatcher Value="True" />
+      <Split_BossHP_GalvanicWitch Value="True" />
+      <Split_BossHP_LadyBedivere Value="True" />
+      <Split_BossHP_KingArthur Value="True" />
+      <Split_BossHP_KingArthurTyrant Value="False" />
+      <Split_BossHP_Morgana Value="True" />
+      <Split_BossHP_Morgana2 Value="False" />
+      <Split_Room Value="False" />
+      <SplitException_HubArea Value="False" />
+      <SplitException_RestShop Value="False" />
+      <Split_Miniboss Value="False" />
+      <Split_Boss Value="False" />
+      <Split_RoundTable Value="False" />
+      <Reset_Lobby Value="False" />
+      <Reset_MainMenu Value="False" />
+    </Settings>
+  </AutoSplitterSettings>
 </Run>
